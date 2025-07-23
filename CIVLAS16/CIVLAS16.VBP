@@ -1,0 +1,17 @@
+Form=CIVLAS16.FRM
+Class=Unit; UNIT.CLS
+Class=Terrain; TERRAIN.CLS
+ProjWinSize=82,830,194,128
+ProjWinShow=2
+IconForm="Laskuri"
+Title="CIVLAS16"
+ExeName="CIVLAS16.EXE"
+Name="Project1"
+HelpContextID="0"
+StartMode=0
+VersionCompatible="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
