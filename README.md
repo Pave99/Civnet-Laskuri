@@ -1,7 +1,7 @@
 # Civnet-Laskuri ja Kylälaskuri
 
 Sid Meier's CivNet -peliin kaksi ohjelmaa helpottamaan strategista suunnittelua.
-Toimii kaikissa 32-bittisissä käyttöjärjetelmissä (Windows 95 -> Windows 11*).
+Toimii kaikissa 32-bittisissä käyttöjärjestelmissä (Windows 95 -> Windows 11*).
 Tehty käyttäen Visual Basic 6.0.
 
 ## Civnet-Laskuri
