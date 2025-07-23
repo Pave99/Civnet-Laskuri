@@ -9,13 +9,14 @@ Tehty käyttäen Visual Basic 6.0.
 ![preview](civnet.jpg)
 
 - Laskee hyökkäyksen onnistumisen todennäköisyyden
-- *Windows 10 tai 11:a käyttäessä tulee ohjelmasta rastittaa Mute-laatikko, jotta ohjelma toimisioikein
+- *Windows 10 tai 11:a käyttäessä tulee ohjelmasta rastittaa Mute-laatikko, jotta ohjelma toimisi oikein
 
 ## Kylälaskuri
 
 ![preview](kyla.jpg)
 
 - Laskee suurimman mahdollisen kylän koon sille annetuista laatoista.
+- Valintaruutu laatan yläpuolella vaihtaa "parempaan versioon" laatasta.
 
 
 ### CIVLAS16
