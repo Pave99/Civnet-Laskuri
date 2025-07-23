@@ -23,7 +23,7 @@ Tehty käyttäen Visual Basic 6.0.
 Mukana myös Civnet-Laskurin 16-bittinen beta-versio, joka toimii Windows 3.1(1)-järjestelmissä.
 Se on tehty käyttäen Visual Basic 4.0:a, joka on viimeinen 16-bittisyyttä tukeva Visual Basic -versio.
 
-![preview](civlas16.png)
+![preview](civlas16.jpg)
 
 
 
