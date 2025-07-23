@@ -6,14 +6,14 @@ Tehty käyttäen Visual Basic 6.0.
 
 ## Civnet-Laskuri
 
-![preview](civnet.png)
+![preview](civnet.jpg)
 
 - Laskee hyökkäyksen onnistumisen todennäköisyyden
 - *Windows 10 tai 11:a käyttäessä tulee ohjelmasta rastittaa Mute-laatikko, jotta ohjelma toimisioikein
 
 ## Kylälaskuri
 
-![preview](kyla.png)
+![preview](kyla.jpg)
 
 - Laskee suurimman mahdollisen kylän koon sille annetuista laatoista.
 
