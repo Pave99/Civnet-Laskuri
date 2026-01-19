@@ -1,17 +1,17 @@
 VERSION 5.00
 Begin VB.Form Kylalaskuri 
    Caption         =   "Kylä-laskuri"
-   ClientHeight    =   9840
+   ClientHeight    =   7590
    ClientLeft      =   165
    ClientTop       =   450
    ClientWidth     =   6435
    LinkTopic       =   "Kylalaskuri"
-   ScaleHeight     =   9840
+   ScaleHeight     =   7590
    ScaleMode       =   0  'User
    ScaleWidth      =   6467.336
    StartUpPosition =   3  'Windows Default
    Begin VB.Frame Frame1 
-      Height          =   10095
+      Height          =   7600
       Left            =   0
       TabIndex        =   0
       Top             =   0
@@ -21,7 +21,7 @@ Begin VB.Form Kylalaskuri
          Height          =   375
          Left            =   2520
          TabIndex        =   23
-         Top             =   6240
+         Top             =   5800
          Width           =   1215
       End
       Begin VB.CheckBox Check21 
@@ -29,7 +29,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   4095
          TabIndex        =   21
-         Top             =   5140
+         Top             =   4700
          Width           =   255
       End
       Begin VB.CheckBox Check20 
@@ -37,7 +37,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   3015
          TabIndex        =   20
-         Top             =   5140
+         Top             =   4700
          Width           =   255
       End
       Begin VB.CheckBox Check19 
@@ -45,7 +45,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   1945
          TabIndex        =   19
-         Top             =   5140
+         Top             =   4700
          Width           =   255
       End
       Begin VB.CheckBox Check18 
@@ -53,7 +53,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   5175
          TabIndex        =   18
-         Top             =   3940
+         Top             =   3620
          Width           =   255
       End
       Begin VB.CheckBox Check17 
@@ -61,7 +61,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   4095
          TabIndex        =   17
-         Top             =   3940
+         Top             =   3620
          Width           =   255
       End
       Begin VB.CheckBox Check16 
@@ -69,7 +69,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   3015
          TabIndex        =   16
-         Top             =   3940
+         Top             =   3620
          Width           =   255
       End
       Begin VB.CheckBox Check15 
@@ -77,7 +77,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   1935
          TabIndex        =   15
-         Top             =   3940
+         Top             =   3620
          Width           =   255
       End
       Begin VB.CheckBox Check14 
@@ -85,7 +85,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   975
          TabIndex        =   14
-         Top             =   3940
+         Top             =   3620
          Width           =   255
       End
       Begin VB.CheckBox Check13 
@@ -93,7 +93,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   5175
          TabIndex        =   13
-         Top             =   2740
+         Top             =   2540
          Width           =   255
       End
       Begin VB.CheckBox Check12 
@@ -101,7 +101,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   4095
          TabIndex        =   12
-         Top             =   2740
+         Top             =   2540
          Width           =   255
       End
       Begin VB.CheckBox Check11 
@@ -109,7 +109,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   3015
          TabIndex        =   11
-         Top             =   2740
+         Top             =   2540
          Width           =   255
       End
       Begin VB.CheckBox Check10 
@@ -117,7 +117,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   1935
          TabIndex        =   10
-         Top             =   2740
+         Top             =   2540
          Width           =   255
       End
       Begin VB.CheckBox Check9 
@@ -125,7 +125,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   975
          TabIndex        =   9
-         Top             =   2740
+         Top             =   2540
          Width           =   255
       End
       Begin VB.CheckBox Check8 
@@ -133,7 +133,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   5175
          TabIndex        =   8
-         Top             =   1660
+         Top             =   1460
          Width           =   255
       End
       Begin VB.CheckBox Check7 
@@ -141,7 +141,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   4095
          TabIndex        =   7
-         Top             =   1660
+         Top             =   1460
          Width           =   255
       End
       Begin VB.CheckBox Check6 
@@ -149,7 +149,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   3015
          TabIndex        =   6
-         Top             =   1660
+         Top             =   1460
          Width           =   255
       End
       Begin VB.CheckBox Check5 
@@ -157,7 +157,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   1920
          TabIndex        =   5
-         Top             =   1660
+         Top             =   1460
          Width           =   255
       End
       Begin VB.CheckBox Check4 
@@ -165,7 +165,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   960
          TabIndex        =   4
-         Top             =   1660
+         Top             =   1460
          Width           =   255
       End
       Begin VB.CheckBox Check3 
@@ -173,7 +173,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   4095
          TabIndex        =   3
-         Top             =   580
+         Top             =   380
          Width           =   255
       End
       Begin VB.CheckBox Check2 
@@ -181,7 +181,7 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   3000
          TabIndex        =   2
-         Top             =   580
+         Top             =   380
          Width           =   255
       End
       Begin VB.CheckBox Check1 
@@ -189,37 +189,55 @@ Begin VB.Form Kylalaskuri
          Height          =   255
          Left            =   1935
          TabIndex        =   1
-         Top             =   580
+         Top             =   380
          Width           =   255
       End
       Begin VB.Label Label2 
-         Caption         =   "Label2"
-         Height          =   255
+         AutoSize        =   -1  'True
+         BeginProperty Font 
+            Name            =   "MS Sans Serif"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   300
          Left            =   240
          TabIndex        =   24
-         Top             =   7320
-         Width           =   495
+         Top             =   7005
+         Width           =   60
       End
       Begin VB.Label Label1 
-         Caption         =   "Label1"
-         Height          =   255
+         AutoSize        =   -1  'True
+         BeginProperty Font 
+            Name            =   "MS Sans Serif"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   300
          Left            =   240
          TabIndex        =   22
-         Top             =   7080
-         Width           =   1935
+         Top             =   6660
+         Width           =   60
       End
       Begin VB.Line Line1 
          X1              =   0
          X2              =   6720
-         Y1              =   6720
-         Y2              =   6720
+         Y1              =   6320
+         Y2              =   6320
       End
       Begin VB.Image Image21 
          BorderStyle     =   1  'Fixed Single
          Height          =   735
          Left            =   3840
          Stretch         =   -1  'True
-         Top             =   5400
+         Top             =   4960
          Width           =   735
       End
       Begin VB.Image Image20 
@@ -227,7 +245,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   2760
          Stretch         =   -1  'True
-         Top             =   5400
+         Top             =   4960
          Width           =   735
       End
       Begin VB.Image Image19 
@@ -235,7 +253,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   1680
          Stretch         =   -1  'True
-         Top             =   5400
+         Top             =   4960
          Width           =   735
       End
       Begin VB.Image Image18 
@@ -243,7 +261,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   4920
          Stretch         =   -1  'True
-         Top             =   4200
+         Top             =   3880
          Width           =   735
       End
       Begin VB.Image Image17 
@@ -251,7 +269,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   3840
          Stretch         =   -1  'True
-         Top             =   4200
+         Top             =   3880
          Width           =   735
       End
       Begin VB.Image Image16 
@@ -259,7 +277,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   2760
          Stretch         =   -1  'True
-         Top             =   4200
+         Top             =   3880
          Width           =   735
       End
       Begin VB.Image Image15 
@@ -267,7 +285,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   1680
          Stretch         =   -1  'True
-         Top             =   4200
+         Top             =   3880
          Width           =   735
       End
       Begin VB.Image Image14 
@@ -275,7 +293,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   720
          Stretch         =   -1  'True
-         Top             =   4200
+         Top             =   3880
          Width           =   735
       End
       Begin VB.Image Image13 
@@ -283,7 +301,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   4920
          Stretch         =   -1  'True
-         Top             =   3000
+         Top             =   2800
          Width           =   735
       End
       Begin VB.Image Image12 
@@ -291,7 +309,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   3840
          Stretch         =   -1  'True
-         Top             =   3000
+         Top             =   2800
          Width           =   735
       End
       Begin VB.Image Image11 
@@ -299,7 +317,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   2760
          Stretch         =   -1  'True
-         Top             =   3000
+         Top             =   2800
          Width           =   735
       End
       Begin VB.Image Image10 
@@ -307,7 +325,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   1680
          Stretch         =   -1  'True
-         Top             =   3000
+         Top             =   2800
          Width           =   735
       End
       Begin VB.Image Image9 
@@ -315,7 +333,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   720
          Stretch         =   -1  'True
-         Top             =   3000
+         Top             =   2800
          Width           =   735
       End
       Begin VB.Image Image8 
@@ -323,7 +341,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   4920
          Stretch         =   -1  'True
-         Top             =   1920
+         Top             =   1720
          Width           =   735
       End
       Begin VB.Image Image7 
@@ -331,7 +349,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   3840
          Stretch         =   -1  'True
-         Top             =   1920
+         Top             =   1720
          Width           =   735
       End
       Begin VB.Image Image6 
@@ -339,7 +357,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   2760
          Stretch         =   -1  'True
-         Top             =   1920
+         Top             =   1720
          Width           =   735
       End
       Begin VB.Image Image5 
@@ -347,7 +365,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   1680
          Stretch         =   -1  'True
-         Top             =   1920
+         Top             =   1720
          Width           =   735
       End
       Begin VB.Image Image4 
@@ -355,7 +373,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   720
          Stretch         =   -1  'True
-         Top             =   1920
+         Top             =   1720
          Width           =   735
       End
       Begin VB.Image Image3 
@@ -363,7 +381,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   3840
          Stretch         =   -1  'True
-         Top             =   840
+         Top             =   640
          Width           =   735
       End
       Begin VB.Image Image2 
@@ -371,7 +389,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   2760
          Stretch         =   -1  'True
-         Top             =   840
+         Top             =   640
          Width           =   735
       End
       Begin VB.Image Image1 
@@ -379,7 +397,7 @@ Begin VB.Form Kylalaskuri
          Height          =   735
          Left            =   1680
          Stretch         =   -1  'True
-         Top             =   840
+         Top             =   640
          Width           =   735
       End
    End
@@ -439,6 +457,7 @@ Dim Mountains As Terrain
 Dim Ocean As Terrain
 
 Private Sub Check1_Click()
+If id1 > 0 Then
 If Check1.Value = 1 Then
 Image1 = LoadResPicture(terrcollection_2.Item(id1).terrpicid, 0)
 idcollection.Remove 1
@@ -448,8 +467,10 @@ Image1 = LoadResPicture(terrcollection_kyla.Item(id1).terrpicid, 0)
 idcollection.Remove 1
 idcollection.Add terrcollection_kyla.Item(id1).foodvalue, "id1", before:=1
 End If
+End If
 End Sub
 Private Sub Check2_Click()
+If id2 > 0 Then
 If Check2.Value = 1 Then
 Image2 = LoadResPicture(terrcollection_2.Item(id2).terrpicid, 0)
 idcollection.Remove 2
@@ -459,138 +480,177 @@ Image2 = LoadResPicture(terrcollection_kyla.Item(id2).terrpicid, 0)
 idcollection.Remove 2
 idcollection.Add terrcollection_kyla.Item(id2).foodvalue, "id2", after:=1
 End If
+End If
 End Sub
 Private Sub Check3_Click()
+If id3 > 0 Then
 If Check3.Value = 1 Then
 Image3 = LoadResPicture(terrcollection_2.Item(id3).terrpicid, 0)
 Else
 Image3 = LoadResPicture(terrcollection_kyla.Item(id3).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check4_Click()
+If id4 > 0 Then
 If Check4.Value = 1 Then
 Image4 = LoadResPicture(terrcollection_2.Item(id4).terrpicid, 0)
 Else
 Image4 = LoadResPicture(terrcollection_kyla.Item(id4).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check5_Click()
+If id5 > 0 Then
 If Check5.Value = 1 Then
 Image5 = LoadResPicture(terrcollection_2.Item(id5).terrpicid, 0)
 Else
 Image5 = LoadResPicture(terrcollection_kyla.Item(id5).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check6_Click()
+If id6 > 0 Then
 If Check6.Value = 1 Then
 Image6 = LoadResPicture(terrcollection_2.Item(id6).terrpicid, 0)
 Else
 Image6 = LoadResPicture(terrcollection_kyla.Item(id6).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check7_Click()
+If id7 > 0 Then
 If Check7.Value = 1 Then
 Image7 = LoadResPicture(terrcollection_2.Item(id7).terrpicid, 0)
 Else
 Image7 = LoadResPicture(terrcollection_kyla.Item(id7).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check8_Click()
+If id8 > 0 Then
 If Check8.Value = 1 Then
 Image8 = LoadResPicture(terrcollection_2.Item(id8).terrpicid, 0)
 Else
 Image8 = LoadResPicture(terrcollection_kyla.Item(id8).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check9_Click()
+If id9 > 0 Then
 If Check9.Value = 1 Then
 Image9 = LoadResPicture(terrcollection_2.Item(id9).terrpicid, 0)
 Else
 Image9 = LoadResPicture(terrcollection_kyla.Item(id9).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check10_Click()
+If id10 > 0 Then
 If Check10.Value = 1 Then
 Image10 = LoadResPicture(terrcollection_2.Item(id10).terrpicid, 0)
 Else
 Image10 = LoadResPicture(terrcollection_kyla.Item(id10).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check11_Click()
+If id11 > 0 Then
 If Check11.Value = 1 Then
 Image11 = LoadResPicture(terrcollection_2.Item(id11).terrpicid, 0)
 Else
 Image11 = LoadResPicture(terrcollection_kyla.Item(id11).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check12_Click()
+If id12 > 0 Then
 If Check12.Value = 1 Then
 Image12 = LoadResPicture(terrcollection_2.Item(id12).terrpicid, 0)
 Else
 Image12 = LoadResPicture(terrcollection_kyla.Item(id12).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check13_Click()
+If id13 > 0 Then
 If Check13.Value = 1 Then
 Image13 = LoadResPicture(terrcollection_2.Item(id13).terrpicid, 0)
 Else
 Image13 = LoadResPicture(terrcollection_kyla.Item(id13).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check14_Click()
+If id14 > 0 Then
 If Check14.Value = 1 Then
 Image14 = LoadResPicture(terrcollection_2.Item(id14).terrpicid, 0)
 Else
 Image14 = LoadResPicture(terrcollection_kyla.Item(id14).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check15_Click()
+If id15 > 0 Then
 If Check15.Value = 1 Then
 Image15 = LoadResPicture(terrcollection_2.Item(id15).terrpicid, 0)
 Else
 Image15 = LoadResPicture(terrcollection_kyla.Item(id15).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check16_Click()
+If id16 > 0 Then
 If Check16.Value = 1 Then
 Image16 = LoadResPicture(terrcollection_2.Item(id16).terrpicid, 0)
 Else
 Image16 = LoadResPicture(terrcollection_kyla.Item(id16).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check17_Click()
+If id17 > 0 Then
 If Check17.Value = 1 Then
 Image17 = LoadResPicture(terrcollection_2.Item(id17).terrpicid, 0)
 Else
 Image17 = LoadResPicture(terrcollection_kyla.Item(id17).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check18_Click()
+If id18 > 0 Then
 If Check18.Value = 1 Then
 Image18 = LoadResPicture(terrcollection_2.Item(id18).terrpicid, 0)
 Else
 Image18 = LoadResPicture(terrcollection_kyla.Item(id18).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check19_Click()
+If id19 > 0 Then
 If Check19.Value = 1 Then
 Image19 = LoadResPicture(terrcollection_2.Item(id19).terrpicid, 0)
 Else
 Image19 = LoadResPicture(terrcollection_kyla.Item(id19).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check20_Click()
+If id20 > 0 Then
 If Check20.Value = 1 Then
 Image20 = LoadResPicture(terrcollection_2.Item(id20).terrpicid, 0)
 Else
 Image20 = LoadResPicture(terrcollection_kyla.Item(id20).terrpicid, 0)
 End If
+End If
 End Sub
 Private Sub Check21_Click()
+If id21 > 0 Then
 If Check21.Value = 1 Then
 Image21 = LoadResPicture(terrcollection_2.Item(id21).terrpicid, 0)
 Else
 Image21 = LoadResPicture(terrcollection_kyla.Item(id21).terrpicid, 0)
+End If
 End If
 End Sub
 
@@ -618,13 +678,27 @@ id19 = 0
 id20 = 0
 id21 = 0
 
-
 idcollection.Add id1, "0"
 idcollection.Add id2, "1"
-
-
-
-
+idcollection.Add id3, "2"
+idcollection.Add id4, "3"
+idcollection.Add id5, "4"
+idcollection.Add id6, "5"
+idcollection.Add id7, "6"
+idcollection.Add id8, "7"
+idcollection.Add id9, "8"
+idcollection.Add id10, "9"
+idcollection.Add id11, "10"
+idcollection.Add id12, "11"
+idcollection.Add id13, "12"
+idcollection.Add id14, "13"
+idcollection.Add id15, "14"
+idcollection.Add id16, "15"
+idcollection.Add id17, "16"
+idcollection.Add id18, "17"
+idcollection.Add id19, "18"
+idcollection.Add id20, "19"
+idcollection.Add id21, "20"
 
 Set Arctic = New Terrain
 Arctic.terrname = "Arctic"
@@ -817,9 +891,13 @@ If Button = 2 Then id3 = id3 - 1
 If id3 > 12 Then id3 = 1
 If id3 < 1 Then id3 = 12
 If Check3.Value = 1 Then
-Image3 = LoadResPicture(terrcollection_2.Item(id3).terrpicid, 0)
+    Image3 = LoadResPicture(terrcollection_2.Item(id3).terrpicid, 0)
+    idcollection.Remove 3
+    idcollection.Add terrcollection_2.Item(id3).foodvalue, "id3", after:=2
 Else
-Image3 = LoadResPicture(terrcollection.Item(id3).terrpicid, 0)
+    Image3 = LoadResPicture(terrcollection_kyla.Item(id3).terrpicid, 0)
+    idcollection.Remove 3
+    idcollection.Add terrcollection_kyla.Item(id3).foodvalue, "id3", after:=2
 End If
 End Sub
 
@@ -829,9 +907,13 @@ If Button = 2 Then id4 = id4 - 1
 If id4 > 12 Then id4 = 1
 If id4 < 1 Then id4 = 12
 If Check4.Value = 1 Then
-Image4 = LoadResPicture(terrcollection_2.Item(id4).terrpicid, 0)
+    Image4 = LoadResPicture(terrcollection_2.Item(id4).terrpicid, 0)
+    idcollection.Remove 4
+    idcollection.Add terrcollection_2.Item(id4).foodvalue, "id4", after:=3
 Else
-Image4 = LoadResPicture(terrcollection.Item(id4).terrpicid, 0)
+    Image4 = LoadResPicture(terrcollection_kyla.Item(id4).terrpicid, 0)
+    idcollection.Remove 4
+    idcollection.Add terrcollection_kyla.Item(id4).foodvalue, "id4", after:=3
 End If
 End Sub
 
@@ -841,9 +923,13 @@ If Button = 2 Then id5 = id5 - 1
 If id5 > 12 Then id5 = 1
 If id5 < 1 Then id5 = 12
 If Check5.Value = 1 Then
-Image5 = LoadResPicture(terrcollection_2.Item(id5).terrpicid, 0)
+    Image5 = LoadResPicture(terrcollection_2.Item(id5).terrpicid, 0)
+    idcollection.Remove 5
+    idcollection.Add terrcollection_2.Item(id5).foodvalue, "id5", after:=4
 Else
-Image5 = LoadResPicture(terrcollection.Item(id5).terrpicid, 0)
+    Image5 = LoadResPicture(terrcollection_kyla.Item(id5).terrpicid, 0)
+    idcollection.Remove 5
+    idcollection.Add terrcollection_kyla.Item(id5).foodvalue, "id5", after:=4
 End If
 End Sub
 
@@ -853,9 +939,13 @@ If Button = 2 Then id6 = id6 - 1
 If id6 > 12 Then id6 = 1
 If id6 < 1 Then id6 = 12
 If Check6.Value = 1 Then
-Image6 = LoadResPicture(terrcollection_2.Item(id6).terrpicid, 0)
+    Image6 = LoadResPicture(terrcollection_2.Item(id6).terrpicid, 0)
+    idcollection.Remove 6
+    idcollection.Add terrcollection_2.Item(id6).foodvalue, "id6", after:=5
 Else
-Image6 = LoadResPicture(terrcollection.Item(id6).terrpicid, 0)
+    Image6 = LoadResPicture(terrcollection_kyla.Item(id6).terrpicid, 0)
+    idcollection.Remove 6
+    idcollection.Add terrcollection_kyla.Item(id6).foodvalue, "id6", after:=5
 End If
 End Sub
 
@@ -865,9 +955,13 @@ If Button = 2 Then id7 = id7 - 1
 If id7 > 12 Then id7 = 1
 If id7 < 1 Then id7 = 12
 If Check7.Value = 1 Then
-Image7 = LoadResPicture(terrcollection_2.Item(id7).terrpicid, 0)
+    Image7 = LoadResPicture(terrcollection_2.Item(id7).terrpicid, 0)
+    idcollection.Remove 7
+    idcollection.Add terrcollection_2.Item(id7).foodvalue, "id7", after:=6
 Else
-Image7 = LoadResPicture(terrcollection.Item(id7).terrpicid, 0)
+    Image7 = LoadResPicture(terrcollection_kyla.Item(id7).terrpicid, 0)
+    idcollection.Remove 7
+    idcollection.Add terrcollection_kyla.Item(id7).foodvalue, "id7", after:=6
 End If
 End Sub
 
@@ -877,9 +971,13 @@ If Button = 2 Then id8 = id8 - 1
 If id8 > 12 Then id8 = 1
 If id8 < 1 Then id8 = 12
 If Check8.Value = 1 Then
-Image8 = LoadResPicture(terrcollection_2.Item(id8).terrpicid, 0)
+    Image8 = LoadResPicture(terrcollection_2.Item(id8).terrpicid, 0)
+    idcollection.Remove 8
+    idcollection.Add terrcollection_2.Item(id8).foodvalue, "id8", after:=7
 Else
-Image8 = LoadResPicture(terrcollection.Item(id8).terrpicid, 0)
+    Image8 = LoadResPicture(terrcollection_kyla.Item(id8).terrpicid, 0)
+    idcollection.Remove 8
+    idcollection.Add terrcollection_kyla.Item(id8).foodvalue, "id8", after:=7
 End If
 End Sub
 
@@ -889,9 +987,13 @@ If Button = 2 Then id9 = id9 - 1
 If id9 > 12 Then id9 = 1
 If id9 < 1 Then id9 = 12
 If Check9.Value = 1 Then
-Image9 = LoadResPicture(terrcollection_2.Item(id9).terrpicid, 0)
+    Image9 = LoadResPicture(terrcollection_2.Item(id9).terrpicid, 0)
+    idcollection.Remove 9
+    idcollection.Add terrcollection_2.Item(id9).foodvalue, "id9", after:=8
 Else
-Image9 = LoadResPicture(terrcollection.Item(id9).terrpicid, 0)
+    Image9 = LoadResPicture(terrcollection_kyla.Item(id9).terrpicid, 0)
+    idcollection.Remove 9
+    idcollection.Add terrcollection_kyla.Item(id9).foodvalue, "id9", after:=8
 End If
 End Sub
 
@@ -901,9 +1003,13 @@ If Button = 2 Then id10 = id10 - 1
 If id10 > 12 Then id10 = 1
 If id10 < 1 Then id10 = 12
 If Check10.Value = 1 Then
-Image10 = LoadResPicture(terrcollection_2.Item(id10).terrpicid, 0)
+    Image10 = LoadResPicture(terrcollection_2.Item(id10).terrpicid, 0)
+    idcollection.Remove 10
+    idcollection.Add terrcollection_2.Item(id10).foodvalue, "id10", after:=9
 Else
-Image10 = LoadResPicture(terrcollection.Item(id10).terrpicid, 0)
+    Image10 = LoadResPicture(terrcollection_kyla.Item(id10).terrpicid, 0)
+    idcollection.Remove 10
+    idcollection.Add terrcollection_kyla.Item(id10).foodvalue, "id10", after:=9
 End If
 End Sub
 
@@ -913,9 +1019,13 @@ If Button = 2 Then id11 = id11 - 1
 If id11 > 12 Then id11 = 1
 If id11 < 1 Then id11 = 12
 If Check11.Value = 1 Then
-Image11 = LoadResPicture(terrcollection_2.Item(id11).terrpicid, 0)
+    Image11 = LoadResPicture(terrcollection_2.Item(id11).terrpicid, 0)
+    idcollection.Remove 11
+    idcollection.Add terrcollection_2.Item(id11).foodvalue, "id11", after:=10
 Else
-Image11 = LoadResPicture(terrcollection.Item(id11).terrpicid, 0)
+    Image11 = LoadResPicture(terrcollection_kyla.Item(id11).terrpicid, 0)
+    idcollection.Remove 11
+    idcollection.Add terrcollection_kyla.Item(id11).foodvalue, "id11", after:=10
 End If
 End Sub
 
@@ -925,9 +1035,13 @@ If Button = 2 Then id12 = id12 - 1
 If id12 > 12 Then id12 = 1
 If id12 < 1 Then id12 = 12
 If Check12.Value = 1 Then
-Image12 = LoadResPicture(terrcollection_2.Item(id12).terrpicid, 0)
+    Image12 = LoadResPicture(terrcollection_2.Item(id12).terrpicid, 0)
+    idcollection.Remove 12
+    idcollection.Add terrcollection_2.Item(id12).foodvalue, "id12", after:=11
 Else
-Image12 = LoadResPicture(terrcollection.Item(id12).terrpicid, 0)
+    Image12 = LoadResPicture(terrcollection_kyla.Item(id12).terrpicid, 0)
+    idcollection.Remove 12
+    idcollection.Add terrcollection_kyla.Item(id12).foodvalue, "id12", after:=11
 End If
 End Sub
 
@@ -937,9 +1051,13 @@ If Button = 2 Then id13 = id13 - 1
 If id13 > 12 Then id13 = 1
 If id13 < 1 Then id13 = 12
 If Check13.Value = 1 Then
-Image13 = LoadResPicture(terrcollection_2.Item(id13).terrpicid, 0)
+    Image13 = LoadResPicture(terrcollection_2.Item(id13).terrpicid, 0)
+    idcollection.Remove 13
+    idcollection.Add terrcollection_2.Item(id13).foodvalue, "id13", after:=12
 Else
-Image13 = LoadResPicture(terrcollection.Item(id13).terrpicid, 0)
+    Image13 = LoadResPicture(terrcollection_kyla.Item(id13).terrpicid, 0)
+    idcollection.Remove 13
+    idcollection.Add terrcollection_kyla.Item(id13).foodvalue, "id13", after:=12
 End If
 End Sub
 
@@ -949,9 +1067,13 @@ If Button = 2 Then id14 = id14 - 1
 If id14 > 12 Then id14 = 1
 If id14 < 1 Then id14 = 12
 If Check14.Value = 1 Then
-Image14 = LoadResPicture(terrcollection_2.Item(id14).terrpicid, 0)
+    Image14 = LoadResPicture(terrcollection_2.Item(id14).terrpicid, 0)
+    idcollection.Remove 14
+    idcollection.Add terrcollection_2.Item(id14).foodvalue, "id14", after:=13
 Else
-Image14 = LoadResPicture(terrcollection.Item(id14).terrpicid, 0)
+    Image14 = LoadResPicture(terrcollection_kyla.Item(id14).terrpicid, 0)
+    idcollection.Remove 14
+    idcollection.Add terrcollection_kyla.Item(id14).foodvalue, "id14", after:=13
 End If
 End Sub
 
@@ -961,9 +1083,13 @@ If Button = 2 Then id15 = id15 - 1
 If id15 > 12 Then id15 = 1
 If id15 < 1 Then id15 = 12
 If Check15.Value = 1 Then
-Image15 = LoadResPicture(terrcollection_2.Item(id15).terrpicid, 0)
+    Image15 = LoadResPicture(terrcollection_2.Item(id15).terrpicid, 0)
+    idcollection.Remove 15
+    idcollection.Add terrcollection_2.Item(id15).foodvalue, "id15", after:=14
 Else
-Image15 = LoadResPicture(terrcollection.Item(id15).terrpicid, 0)
+    Image15 = LoadResPicture(terrcollection_kyla.Item(id15).terrpicid, 0)
+    idcollection.Remove 15
+    idcollection.Add terrcollection_kyla.Item(id15).foodvalue, "id15", after:=14
 End If
 End Sub
 
@@ -973,9 +1099,13 @@ If Button = 2 Then id16 = id16 - 1
 If id16 > 12 Then id16 = 1
 If id16 < 1 Then id16 = 12
 If Check16.Value = 1 Then
-Image16 = LoadResPicture(terrcollection_2.Item(id16).terrpicid, 0)
+    Image16 = LoadResPicture(terrcollection_2.Item(id16).terrpicid, 0)
+    idcollection.Remove 16
+    idcollection.Add terrcollection_2.Item(id16).foodvalue, "id16", after:=15
 Else
-Image16 = LoadResPicture(terrcollection.Item(id16).terrpicid, 0)
+    Image16 = LoadResPicture(terrcollection_kyla.Item(id16).terrpicid, 0)
+    idcollection.Remove 16
+    idcollection.Add terrcollection_kyla.Item(id16).foodvalue, "id16", after:=15
 End If
 End Sub
 
@@ -985,9 +1115,13 @@ If Button = 2 Then id17 = id17 - 1
 If id17 > 12 Then id17 = 1
 If id17 < 1 Then id17 = 12
 If Check17.Value = 1 Then
-Image17 = LoadResPicture(terrcollection_2.Item(id17).terrpicid, 0)
+    Image17 = LoadResPicture(terrcollection_2.Item(id17).terrpicid, 0)
+    idcollection.Remove 17
+    idcollection.Add terrcollection_2.Item(id17).foodvalue, "id17", after:=16
 Else
-Image17 = LoadResPicture(terrcollection.Item(id17).terrpicid, 0)
+    Image17 = LoadResPicture(terrcollection_kyla.Item(id17).terrpicid, 0)
+    idcollection.Remove 17
+    idcollection.Add terrcollection_kyla.Item(id17).foodvalue, "id17", after:=16
 End If
 End Sub
 
@@ -997,9 +1131,13 @@ If Button = 2 Then id18 = id18 - 1
 If id18 > 12 Then id18 = 1
 If id18 < 1 Then id18 = 12
 If Check18.Value = 1 Then
-Image18 = LoadResPicture(terrcollection_2.Item(id18).terrpicid, 0)
+    Image18 = LoadResPicture(terrcollection_2.Item(id18).terrpicid, 0)
+    idcollection.Remove 18
+    idcollection.Add terrcollection_2.Item(id18).foodvalue, "id18", after:=17
 Else
-Image18 = LoadResPicture(terrcollection.Item(id18).terrpicid, 0)
+    Image18 = LoadResPicture(terrcollection_kyla.Item(id18).terrpicid, 0)
+    idcollection.Remove 18
+    idcollection.Add terrcollection_kyla.Item(id18).foodvalue, "id18", after:=17
 End If
 End Sub
 
@@ -1009,9 +1147,13 @@ If Button = 2 Then id19 = id19 - 1
 If id19 > 12 Then id19 = 1
 If id19 < 1 Then id19 = 12
 If Check19.Value = 1 Then
-Image19 = LoadResPicture(terrcollection_2.Item(id19).terrpicid, 0)
+    Image19 = LoadResPicture(terrcollection_2.Item(id19).terrpicid, 0)
+    idcollection.Remove 19
+    idcollection.Add terrcollection_2.Item(id19).foodvalue, "id19", after:=18
 Else
-Image19 = LoadResPicture(terrcollection.Item(id19).terrpicid, 0)
+    Image19 = LoadResPicture(terrcollection_kyla.Item(id19).terrpicid, 0)
+    idcollection.Remove 19
+    idcollection.Add terrcollection_kyla.Item(id19).foodvalue, "id19", after:=18
 End If
 End Sub
 
@@ -1021,9 +1163,13 @@ If Button = 2 Then id20 = id20 - 1
 If id20 > 12 Then id20 = 1
 If id20 < 1 Then id20 = 12
 If Check20.Value = 1 Then
-Image20 = LoadResPicture(terrcollection_2.Item(id20).terrpicid, 0)
+    Image20 = LoadResPicture(terrcollection_2.Item(id20).terrpicid, 0)
+    idcollection.Remove 20
+    idcollection.Add terrcollection_2.Item(id20).foodvalue, "id20", after:=19
 Else
-Image20 = LoadResPicture(terrcollection.Item(id20).terrpicid, 0)
+    Image20 = LoadResPicture(terrcollection_kyla.Item(id20).terrpicid, 0)
+    idcollection.Remove 20
+    idcollection.Add terrcollection_kyla.Item(id20).foodvalue, "id20", after:=19
 End If
 End Sub
 
@@ -1033,9 +1179,13 @@ If Button = 2 Then id21 = id21 - 1
 If id21 > 12 Then id21 = 1
 If id21 < 1 Then id21 = 12
 If Check21.Value = 1 Then
-Image21 = LoadResPicture(terrcollection_2.Item(id21).terrpicid, 0)
+    Image21 = LoadResPicture(terrcollection_2.Item(id21).terrpicid, 0)
+    idcollection.Remove 21
+    idcollection.Add terrcollection_2.Item(id21).foodvalue, "id21", after:=20
 Else
-Image21 = LoadResPicture(terrcollection.Item(id21).terrpicid, 0)
+    Image21 = LoadResPicture(terrcollection_kyla.Item(id21).terrpicid, 0)
+    idcollection.Remove 21
+    idcollection.Add terrcollection_kyla.Item(id21).foodvalue, "id21", after:=20
 End If
 End Sub
 
@@ -1044,8 +1194,8 @@ Dim totalfood As Integer
 totalfood = 0
 For Each id In idcollection
 totalfood = totalfood + id
-Label2.Caption = CStr(id)
 Next
-Label1.Caption = CStr(totalfood)
+Label1.Caption = "Ruokaa yhteensä: " + CStr(totalfood)
+Label2.Caption = "Suurin mahdollinen kylän koko: " + CStr(Fix(totalfood / 2))
 
 End Sub
