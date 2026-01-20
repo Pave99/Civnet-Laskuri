@@ -3,16 +3,15 @@ Begin VB.Form Laskuri
    BackColor       =   &H00C0C0FF&
    Caption         =   "Civnet-laskuri"
    ClientHeight    =   5475
-   ClientLeft      =   3375
-   ClientTop       =   3060
+   ClientLeft      =   1935
+   ClientTop       =   1860
    ClientWidth     =   6720
    Height          =   5880
-   Icon            =   "CIVLAS16.frx":0000
-   Left            =   3315
+   Left            =   1875
    LinkTopic       =   "Form1"
    ScaleHeight     =   5475
    ScaleWidth      =   6720
-   Top             =   2715
+   Top             =   1515
    Width           =   6840
    Begin VB.Frame Frame1 
       BackColor       =   &H00C0C0C0&
@@ -22,6 +21,7 @@ Begin VB.Form Laskuri
       Top             =   0
       Width           =   6735
       Begin VB.CheckBox mute 
+         BackColor       =   &H00C0C0C0&
          Caption         =   "Mute"
          Height          =   495
          Left            =   240
@@ -72,6 +72,7 @@ Begin VB.Form Laskuri
          Width           =   1095
       End
       Begin VB.CheckBox def_f_check 
+         BackColor       =   &H00C0C0C0&
          Height          =   495
          Left            =   4200
          TabIndex        =   21
@@ -79,7 +80,7 @@ Begin VB.Form Laskuri
          Width           =   495
       End
       Begin VB.OptionButton Optiontwothirds 
-         Caption         =   "Option2"
+         BackColor       =   &H00C0C0C0&
          Enabled         =   0   'False
          Height          =   255
          Left            =   5160
@@ -88,7 +89,7 @@ Begin VB.Form Laskuri
          Width           =   255
       End
       Begin VB.OptionButton Optiononethird 
-         Caption         =   "Option1"
+         BackColor       =   &H00C0C0C0&
          Enabled         =   0   'False
          Height          =   255
          Left            =   5160
@@ -97,6 +98,7 @@ Begin VB.Form Laskuri
          Width           =   255
       End
       Begin VB.CheckBox thirds_check 
+         BackColor       =   &H00C0C0C0&
          Height          =   375
          Left            =   4200
          TabIndex        =   14
@@ -104,7 +106,7 @@ Begin VB.Form Laskuri
          Width           =   495
       End
       Begin VB.CheckBox Citywalls_check 
-         Caption         =   "Check2"
+         BackColor       =   &H00C0C0C0&
          Height          =   255
          Left            =   2520
          TabIndex        =   12
@@ -112,6 +114,7 @@ Begin VB.Form Laskuri
          Width           =   255
       End
       Begin VB.CheckBox Veteran_check_def 
+         BackColor       =   &H00C0C0C0&
          Height          =   495
          Left            =   2520
          TabIndex        =   9
@@ -119,6 +122,7 @@ Begin VB.Form Laskuri
          Width           =   495
       End
       Begin VB.CheckBox Veteran_check_att 
+         BackColor       =   &H00C0C0C0&
          Height          =   375
          Left            =   2520
          TabIndex        =   6
@@ -154,26 +158,27 @@ Begin VB.Form Laskuri
          Class           =   "SoundRec"
          Height          =   495
          Left            =   4560
-         OleObjectBlob   =   "CIVLAS16.frx":08CA
-         SourceDoc       =   "c:\civ\we_die.wav"
+         OleObjectBlob   =   "CIVLAS16.frx":0000
+         SourceDoc       =   "c:\laskuri\kylalas\we_die.wav"
          TabIndex        =   30
          Top             =   3600
-         Visible         =   0   'False
          Width           =   495
+         Visible         =   0   'False
       End
       Begin VB.OLE they_die 
          AutoActivate    =   0  'Manual
          Class           =   "SoundRec"
          Height          =   495
          Left            =   3840
-         OleObjectBlob   =   "CIVLAS16.frx":7CE2
-         SourceDoc       =   "c:\civ\they_die.wav"
+         OleObjectBlob   =   "CIVLAS16.frx":7018
+         SourceDoc       =   "c:\laskuri\kylalas\they_die.wav"
          TabIndex        =   29
          Top             =   3600
-         Visible         =   0   'False
          Width           =   495
+         Visible         =   0   'False
       End
       Begin VB.Label winchance_def_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Voittomahdollisuus puolustajalla:"
          BeginProperty Font 
             name            =   "MS Sans Serif"
@@ -191,6 +196,7 @@ Begin VB.Form Laskuri
          Width           =   3615
       End
       Begin VB.Label winprob_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Voittomahdollisuus hyökkääjällä:"
          BeginProperty Font 
             name            =   "MS Sans Serif"
@@ -208,6 +214,7 @@ Begin VB.Form Laskuri
          Width           =   3855
       End
       Begin VB.Label terr_result 
+         BackStyle       =   0  'Transparent
          BeginProperty Font 
             name            =   "MS Sans Serif"
             charset         =   1
@@ -248,14 +255,16 @@ Begin VB.Form Laskuri
          Y2              =   1560
       End
       Begin VB.Label def_f_check_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Fortify"
          Height          =   375
-         Left            =   3960
+         Left            =   4080
          TabIndex        =   22
          Top             =   1320
          Width           =   855
       End
       Begin VB.Label def_result 
+         BackStyle       =   0  'Transparent
          BeginProperty Font 
             name            =   "Arial"
             charset         =   1
@@ -272,6 +281,7 @@ Begin VB.Form Laskuri
          Width           =   735
       End
       Begin VB.Label att_result 
+         BackStyle       =   0  'Transparent
          BeginProperty Font 
             name            =   "Arial"
             charset         =   1
@@ -312,6 +322,7 @@ Begin VB.Form Laskuri
          Y2              =   240
       End
       Begin VB.Label twothirds_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "2"
          Height          =   255
          Left            =   5205
@@ -320,6 +331,7 @@ Begin VB.Form Laskuri
          Width           =   255
       End
       Begin VB.Label onethird 
+         BackStyle       =   0  'Transparent
          Caption         =   "1"
          Height          =   255
          Left            =   5205
@@ -352,6 +364,7 @@ Begin VB.Form Laskuri
          Y2              =   600
       End
       Begin VB.Label Moves_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Kolmasosat"
          Height          =   375
          Left            =   3960
@@ -384,6 +397,7 @@ Begin VB.Form Laskuri
          Y2              =   2760
       End
       Begin VB.Label Citywalls_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "City Walls"
          Height          =   375
          Left            =   2280
@@ -416,6 +430,7 @@ Begin VB.Form Laskuri
          Y2              =   2760
       End
       Begin VB.Label Terrain_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Maasto"
          Height          =   375
          Left            =   480
@@ -454,6 +469,7 @@ Begin VB.Form Laskuri
          Y2              =   1560
       End
       Begin VB.Label Veteran_text_def 
+         BackStyle       =   0  'Transparent
          Caption         =   "Veteraani"
          Height          =   255
          Left            =   2280
@@ -486,6 +502,7 @@ Begin VB.Form Laskuri
          Y2              =   1200
       End
       Begin VB.Label Def_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Puolustava"
          Height          =   255
          Left            =   360
@@ -518,6 +535,7 @@ Begin VB.Form Laskuri
          Y2              =   600
       End
       Begin VB.Label Veteran_text_att 
+         BackStyle       =   0  'Transparent
          Caption         =   "Veteraani"
          Height          =   255
          Left            =   2280
@@ -550,6 +568,7 @@ Begin VB.Form Laskuri
          Y2              =   600
       End
       Begin VB.Label Att_text 
+         BackStyle       =   0  'Transparent
          Caption         =   "Hyökkäävä"
          Height          =   255
          Left            =   360
@@ -564,31 +583,31 @@ Attribute VB_Creatable = False
 Attribute VB_Exposed = False
 
 
-Dim Militia As Unit
-Dim Phalanx As Unit
-Dim Cavalry As Unit
-Dim Legion As Unit
-Dim Chariot As Unit
-Dim Trireme As Unit
-Dim Catapult As Unit
-Dim Knight As Unit
-Dim Sail As Unit
-Dim Ironclad As Unit
-Dim Musketeer As Unit
-Dim Frigate As Unit
-Dim Cannon As Unit
-Dim Cruiser As Unit
-Dim Transport As Unit
-Dim Fighter As Unit
-Dim Bomber As Unit
-Dim Carrier As Unit
-Dim Rifleman As Unit
-Dim Submarine As Unit
-Dim Battleship As Unit
-Dim Armor As Unit
-Dim MechInf As Unit
-Dim Artillery As Unit
-Dim Nuclear As Unit
+Dim Militia As unit
+Dim Phalanx As unit
+Dim Cavalry As unit
+Dim Legion As unit
+Dim Chariot As unit
+Dim Trireme As unit
+Dim Catapult As unit
+Dim Knight As unit
+Dim Sail As unit
+Dim Ironclad As unit
+Dim Musketeer As unit
+Dim Frigate As unit
+Dim Cannon As unit
+Dim Cruiser As unit
+Dim Transport As unit
+Dim Fighter As unit
+Dim Bomber As unit
+Dim Carrier As unit
+Dim Rifleman As unit
+Dim Submarine As unit
+Dim Battleship As unit
+Dim Armor As unit
+Dim MechInf As unit
+Dim Artillery As unit
+Dim Nuclear As unit
 
 Dim Plains As Terrain
 Dim Grassland As Terrain
@@ -604,11 +623,11 @@ Dim Mountains As Terrain
 Dim Citywalls As Terrain
 
 
-Dim attchoice As Unit
-Dim defchoice As Unit
+Dim attchoice As unit
+Dim defchoice As unit
 Dim terrchoice As Terrain
-Dim attunit As Unit
-Dim bens As Unit
+Dim attunit As unit
+Dim bens As unit
 
 
 
@@ -622,18 +641,26 @@ Const veteranbonus As Double = 0.5
 
 
 Dim terr As Terrain
-Dim Unit As Unit
+Dim unit As unit
 
 Function Getactivecombolistchoice(CList As ComboBox)
 Getactivecombolistchoice = CList.Text
 End Function
 
+
+Function RoundTo(x As Double, decimals As Integer) As Double
+    Dim Factor As Double
+    Factor = 10 ^ decimals
+    RoundTo = Int(x * Factor + 0.5) / Factor
+End Function
+
+
 Private Sub att_list_Click()
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
     
-For Each Unit In unitcollection
-    If Unit.Unitname = attchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = attchoice.Unitname Then
         If attchoice.Unitname = "Trireme" Or attchoice.Unitname = "Sail" Or attchoice.Unitname = "Ironclad" Or attchoice.Unitname = "Frigate" Or attchoice.Unitname = "Cruiser" Or attchoice.Unitname = "Submarine" Or attchoice.Unitname = "Battleship" Or attchoice.Unitname = "Transport" Or attchoice.Unitname = "Carrier" Or attchoice.Unitname = "Fighter" Or attchoice.Unitname = "Bomber" Or attchoice.Unitname = "Nuclear" Then
             thirds_check.Enabled = False
             'thirds_check.Value = 2
@@ -643,24 +670,24 @@ For Each Unit In unitcollection
             Optiontwothirds.Value = False
 
             If Veteran_check_att.Value = 1 Then
-                att_result.Caption = Fix(Unit.attack * (1 + veteranbonus))
-            ElseIf Unit.Unitname = attchoice.Unitname Then
-                att_result.Caption = Unit.attack
+                att_result.Caption = Fix(unit.attack * (1 + veteranbonus))
+            ElseIf unit.Unitname = attchoice.Unitname Then
+                att_result.Caption = unit.attack
             End If
         Else
             thirds_check.Enabled = True
-            If Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 And Optiononethird.Value = True Then
-                att_result.Caption = Fix(Unit.attack * (1 + veteranbonus) * 0.33334)
-            ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 And Optiontwothirds.Value = True Then
-                att_result.Caption = Fix(Unit.attack * (1 + veteranbonus) * 0.66667)
-            ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 And Optiononethird.Value = True Then
-                att_result.Caption = Fix(Unit.attack * (1) * 0.33334)
-            ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 And Optiontwothirds.Value = True Then
-                att_result.Caption = Fix(Unit.attack * (1) * 0.66667)
-            ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
-                att_result.Caption = Fix(Unit.attack * (1 + veteranbonus))
-            ElseIf Unit.Unitname = attchoice.Unitname Then
-                att_result.Caption = Unit.attack
+            If unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 And Optiononethird.Value = True Then
+                att_result.Caption = Fix(unit.attack * (1 + veteranbonus) * 0.33334)
+            ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 And Optiontwothirds.Value = True Then
+                att_result.Caption = Fix(unit.attack * (1 + veteranbonus) * 0.66667)
+            ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 And Optiononethird.Value = True Then
+                att_result.Caption = Fix(unit.attack * (1) * 0.33334)
+            ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 And Optiontwothirds.Value = True Then
+                att_result.Caption = Fix(unit.attack * (1) * 0.66667)
+            ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
+                att_result.Caption = Fix(unit.attack * (1 + veteranbonus))
+            ElseIf unit.Unitname = attchoice.Unitname Then
+                att_result.Caption = unit.attack
             End If
         End If
             If thirds_check.Enabled = False And thirds_check.Value = 1 Then
@@ -676,10 +703,10 @@ Private Sub Citywalls_check_Click()
 Set terrchoice = New Terrain
 terrchoice.terrname = Getactivecombolistchoice(terr_list)
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
 If Citywalls_check.Value = 0 Or attchoice.Unitname = "Bomber" Or attchoice.Unitname = "Artillery" Then
@@ -691,34 +718,34 @@ For Each Terrain In terrcollection
     End If
 Next
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 Then
-        def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
-    ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 Then
-        def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
-    ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 Then
-        def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + defbonus))
-    ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 Then
-        def_result.Caption = Fix(Unit.defend * (1 + defbonus))
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 Then
+        def_result.Caption = Fix(unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
+    ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 Then
+        def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
+    ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 Then
+        def_result.Caption = Fix(unit.defend * (1 + fortifybonus + defbonus))
+    ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 Then
+        def_result.Caption = Fix(unit.defend * (1 + defbonus))
     End If
 Next
 
 Else
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         For Each terr In terrcollection
             If terr.terrname = terrchoice.terrname Then
                 terr_result.Caption = terr.deffront
                 defbonus = terr.defbonus
                 If def_f_check.Value = 1 And Veteran_check_def.Value = 1 Then
-                    def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
+                    def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
                 ElseIf def_f_check.Value = 1 And Veteran_check_def.Value = 0 Then
-                    def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
+                    def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
                 ElseIf def_f_check.Value = 0 And Veteran_check_def.Value = 1 Then
-                    def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3)))
+                    def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3)))
                 ElseIf def_f_check.Value = 0 And Veteran_check_def.Value = 0 Then
-                    def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3)))
+                    def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3)))
                 End If
             End If
         Next
@@ -736,13 +763,13 @@ intatt = CInt(att_result.Caption)
 intdef = CInt(def_result.Caption)
 
 inttotal = intatt + intdef
-intattprob = intatt / inttotal
-'intattprob = Round(intattprob, 4)
+intattprob = RoundTo((intatt / inttotal), 3)
+intattprobfront = intattprob * 100
 
-winchance_att.Text = CStr(intatt) + " / " + CStr(inttotal) + " = " + CStr(intattprob)
+winchance_att.Text = CStr(intatt) + " / " + CStr(inttotal) + " = " + CStr(intattprob) + " = " + CStr(intattprobfront) + "%"
 winchance = CDbl(winchance_att.Text)
 
-winchance_def.Text = 1 - intattprob
+winchance_def.Text = CStr(100 - intattprobfront) + "%"
 
 If intattprob >= 0.5 And mute.Value = 0 Then
 they_die.DoVerb 0
@@ -774,30 +801,30 @@ For Each Terrain In terrcollection
     End If
 Next
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If Veteran_check_def.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + defbonus))
             End If
         Else
-            If Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
+            If unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
             End If
         End If
     End If
@@ -814,29 +841,29 @@ For Each Terrain In terrcollection
     End If
 Next
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If Veteran_check_def.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
             End If
         Else
-            If Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * ((1 + veteranbonus + defbonus) * 3))
+            If unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * ((1 + veteranbonus + defbonus) * 3))
             End If
         End If
     End If
@@ -857,21 +884,21 @@ For Each Terrain In terrcollection
     End If
 Next
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If def_f_check.Value = 1 And Veteran_check_def.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
             ElseIf (def_f_check.Value = 1 And Veteran_check_def.Value = 0) Or (def_f_check.Value = 0 And Veteran_check_def.Value = 1) Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
             End If
         Else
 
@@ -881,20 +908,20 @@ For Each Unit In unitcollection
                 def_f_check.Enabled = True
             End If
             
-            If Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And ((Veteran_check_def.Value = 1 And def_f_check.Value = 0) Or (Veteran_check_def.Value = 0 And def_f_check.Value = 1)) And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3)))
+            If unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And ((Veteran_check_def.Value = 1 And def_f_check.Value = 0) Or (Veteran_check_def.Value = 0 And def_f_check.Value = 1)) And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3)))
             End If
         End If
         If def_f_check.Enabled = False And def_f_check.Value = 1 Then
@@ -905,151 +932,151 @@ Next
 End Sub
 Private Sub Form_Load()
 
-Set Militia = New Unit
+Set Militia = New unit
 Militia.Unitname = "Militia"
 Militia.attack = 1
 Militia.defend = 1
 unitcollection.Add Militia
 
-Set Phalanx = New Unit
+Set Phalanx = New unit
 Phalanx.Unitname = "Phalanx"
 Phalanx.attack = 1
 Phalanx.defend = 2
 unitcollection.Add Phalanx
 
-Set Cavalry = New Unit
+Set Cavalry = New unit
 Cavalry.Unitname = "Cavalry"
 Cavalry.attack = 2
 Cavalry.defend = 1
 unitcollection.Add Cavalry
 
-Set Legion = New Unit
+Set Legion = New unit
 Legion.Unitname = "Legion"
 Legion.attack = 3
 Legion.defend = 1
 unitcollection.Add Legion
 
-Set Chariot = New Unit
+Set Chariot = New unit
 Chariot.Unitname = "Chariot"
 Chariot.attack = 4
 Chariot.defend = 1
 unitcollection.Add Chariot
 
-Set Trireme = New Unit
+Set Trireme = New unit
 Trireme.Unitname = "Trireme"
 Trireme.attack = 1
 Trireme.defend = 1
 unitcollection.Add Trireme
 
-Set Catapult = New Unit
+Set Catapult = New unit
 Catapult.Unitname = "Catapult"
 Catapult.attack = 6
 Catapult.defend = 1
 unitcollection.Add Catapult
 
-Set Knight = New Unit
+Set Knight = New unit
 Knight.Unitname = "Knight"
 Knight.attack = 4
 Knight.defend = 2
 unitcollection.Add Knight
 
-Set Sail = New Unit
+Set Sail = New unit
 Sail.Unitname = "Sail"
 Sail.attack = 1
 Sail.defend = 1
 unitcollection.Add Sail
 
-Set Ironclad = New Unit
+Set Ironclad = New unit
 Ironclad.Unitname = "Ironclad"
 Ironclad.attack = 4
 Ironclad.defend = 4
 unitcollection.Add Ironclad
 
-Set Musketeer = New Unit
+Set Musketeer = New unit
 Musketeer.Unitname = "Musketeer"
 Musketeer.attack = 2
 Musketeer.defend = 3
 unitcollection.Add Musketeer
 
-Set Frigate = New Unit
+Set Frigate = New unit
 Frigate.Unitname = "Frigate"
 Frigate.attack = 2
 Frigate.defend = 2
 unitcollection.Add Frigate
 
-Set Cannon = New Unit
+Set Cannon = New unit
 Cannon.Unitname = "Cannon"
 Cannon.attack = 8
 Cannon.defend = 1
 unitcollection.Add Cannon
 
-Set Cruiser = New Unit
+Set Cruiser = New unit
 Cruiser.Unitname = "Cruiser"
 Cruiser.attack = 6
 Cruiser.defend = 6
 unitcollection.Add Cruiser
 
-Set Transport = New Unit
+Set Transport = New unit
 Transport.Unitname = "Transport"
 Transport.attack = 0
 Transport.defend = 3
 unitcollection.Add Transport
 
-Set Fighter = New Unit
+Set Fighter = New unit
 Fighter.Unitname = "Fighter"
 Fighter.attack = 4
 Fighter.defend = 2
 unitcollection.Add Fighter
 
-Set Bomber = New Unit
+Set Bomber = New unit
 Bomber.Unitname = "Bomber"
 Bomber.attack = 12
 Bomber.defend = 1
 unitcollection.Add Bomber
 
-Set Carrier = New Unit
+Set Carrier = New unit
 Carrier.Unitname = "Carrier"
 Carrier.attack = 1
 Carrier.defend = 12
 unitcollection.Add Carrier
 
-Set Rifleman = New Unit
+Set Rifleman = New unit
 Rifleman.Unitname = "Rifleman"
 Rifleman.attack = 3
 Rifleman.defend = 5
 unitcollection.Add Rifleman
 
-Set Submarine = New Unit
+Set Submarine = New unit
 Submarine.Unitname = "Submarine"
 Submarine.attack = 8
 Submarine.defend = 2
 unitcollection.Add Submarine
 
-Set Battleship = New Unit
+Set Battleship = New unit
 Battleship.Unitname = "Battleship"
 Battleship.attack = 18
 Battleship.defend = 12
 unitcollection.Add Battleship
 
-Set Armor = New Unit
+Set Armor = New unit
 Armor.Unitname = "Armor"
 Armor.attack = 10
 Armor.defend = 5
 unitcollection.Add Armor
 
-Set MechInf = New Unit
+Set MechInf = New unit
 MechInf.Unitname = "Mech Inf"
 MechInf.attack = 6
 MechInf.defend = 6
 unitcollection.Add MechInf
 
-Set Artillery = New Unit
+Set Artillery = New unit
 Artillery.Unitname = "Artillery"
 Artillery.attack = 12
 Artillery.defend = 2
 unitcollection.Add Artillery
 
-Set Nuclear = New Unit
+Set Nuclear = New unit
 Nuclear.Unitname = "Nuclear"
 Nuclear.attack = 99
 Nuclear.defend = 0
@@ -1191,28 +1218,28 @@ terr_list.AddItem "Mountains", 10
 End Sub
 Private Sub Optiononethird_Click()
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
-        att_result.Caption = Fix(Unit.attack * 1.5 * 0.33334)
-    ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 Then
-        att_result.Caption = Fix(Unit.attack * 0.33334)
+For Each unit In unitcollection
+    If unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
+        att_result.Caption = Fix(unit.attack * 1.5 * 0.33334)
+    ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 Then
+        att_result.Caption = Fix(unit.attack * 0.33334)
     End If
 Next
 
 End Sub
 Private Sub Optiontwothirds_Click()
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
-        att_result.Caption = Fix(Unit.attack * 1.5 * 0.66667)
-    ElseIf Unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 Then
-        att_result.Caption = Fix(Unit.attack * 0.66667)
+For Each unit In unitcollection
+    If unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 1 Then
+        att_result.Caption = Fix(unit.attack * 1.5 * 0.66667)
+    ElseIf unit.Unitname = attchoice.Unitname And Veteran_check_att.Value = 0 Then
+        att_result.Caption = Fix(unit.attack * 0.66667)
     End If
 Next
 
@@ -1229,37 +1256,37 @@ For Each Terrain In terrcollection
     End If
 Next
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
-Set attchoice = New Unit
+Set attchoice = New unit
 attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If def_f_check.Value = 1 And Veteran_check_def.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
             ElseIf (def_f_check.Value = 1 And Veteran_check_def.Value = 0) Or (def_f_check.Value = 0 And Veteran_check_def.Value = 1) Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
             End If
         Else
-            If Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And ((Veteran_check_def.Value = 1 And def_f_check.Value = 0) Or (Veteran_check_def.Value = 0 And def_f_check.Value = 1)) And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3)))
+            If unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + fortifybonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And ((Veteran_check_def.Value = 1 And def_f_check.Value = 0) Or (Veteran_check_def.Value = 0 And def_f_check.Value = 1)) And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 1 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And Veteran_check_def.Value = 0 And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3)))
             End If
         End If
     End If
@@ -1279,21 +1306,21 @@ Else
 End If
 
 If Veteran_check_att.Value = 1 Then
-    Set attchoice = New Unit
+    Set attchoice = New unit
     attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-    For Each Unit In unitcollection
-        If Unit.Unitname = attchoice.Unitname Then
-            att_result.Caption = Fix(Unit.attack * 1.5)
+    For Each unit In unitcollection
+        If unit.Unitname = attchoice.Unitname Then
+            att_result.Caption = Fix(unit.attack * 1.5)
         End If
     Next
 Else
-    Set attchoice = New Unit
+    Set attchoice = New unit
     attchoice.Unitname = Getactivecombolistchoice(att_list)
 
-    For Each Unit In unitcollection
-        If Unit.Unitname = attchoice.Unitname Then
-            att_result.Caption = Fix(Unit.attack)
+    For Each unit In unitcollection
+        If unit.Unitname = attchoice.Unitname Then
+            att_result.Caption = Fix(unit.attack)
         End If
     Next
     
@@ -1302,11 +1329,11 @@ End Sub
 Private Sub Veteran_check_att_Click()
 
 If Veteran_check_att.Value = 1 Then
-    Set attchoice = New Unit
+    Set attchoice = New unit
     attchoice.Unitname = Getactivecombolistchoice(att_list)
     
-    For Each Unit In unitcollection
-        If Unit.Unitname = attchoice.Unitname Then
+    For Each unit In unitcollection
+        If unit.Unitname = attchoice.Unitname Then
             If attchoice.Unitname = "Trireme" Or attchoice.Unitname = "Sail" Or attchoice.Unitname = "Ironclad" Or attchoice.Unitname = "Frigate" Or attchoice.Unitname = "Cruiser" Or attchoice.Unitname = "Submarine" Or attchoice.Unitname = "Battleship" Or attchoice.Unitname = "Transport" Or attchoice.Unitname = "Carrier" Or attchoice.Unitname = "Fighter" Or attchoice.Unitname = "Bomber" Or attchoice.Unitname = "Nuclear" Then
                 Optiononethird.Enabled = False
                 Optiononethird.Value = False
@@ -1314,15 +1341,15 @@ If Veteran_check_att.Value = 1 Then
                 Optiontwothirds.Value = False
                 thirds_check.Enabled = False
                 'thirds_check.Value = 0
-                att_result.Caption = Fix(Unit.attack * (1 + veteranbonus))
+                att_result.Caption = Fix(unit.attack * (1 + veteranbonus))
             Else
                 thirds_check.Enabled = True
-                If Unit.Unitname = attchoice.Unitname And Optiononethird.Value = True Then
-                    att_result.Caption = Fix(Unit.attack * (1 + veteranbonus) * 0.33334)
-                ElseIf Unit.Unitname = attchoice.Unitname And Optiontwothirds.Value = True Then
-                    att_result.Caption = Fix(Unit.attack * (1 + veteranbonus) * 0.66667)
-                ElseIf Unit.Unitname = attchoice.Unitname Then
-                    att_result.Caption = Fix(Unit.attack * (1 + veteranbonus))
+                If unit.Unitname = attchoice.Unitname And Optiononethird.Value = True Then
+                    att_result.Caption = Fix(unit.attack * (1 + veteranbonus) * 0.33334)
+                ElseIf unit.Unitname = attchoice.Unitname And Optiontwothirds.Value = True Then
+                    att_result.Caption = Fix(unit.attack * (1 + veteranbonus) * 0.66667)
+                ElseIf unit.Unitname = attchoice.Unitname Then
+                    att_result.Caption = Fix(unit.attack * (1 + veteranbonus))
                 End If
             End If
         End If
@@ -1330,26 +1357,26 @@ If Veteran_check_att.Value = 1 Then
     
 Else
 
-    Set attchoice = New Unit
+    Set attchoice = New unit
     attchoice.Unitname = Getactivecombolistchoice(att_list)
     
-    For Each Unit In unitcollection
-        If Unit.Unitname = attchoice.Unitname Then
+    For Each unit In unitcollection
+        If unit.Unitname = attchoice.Unitname Then
             If attchoice.Unitname = "Trireme" Or attchoice.Unitname = "Sail" Or attchoice.Unitname = "Ironclad" Or attchoice.Unitname = "Frigate" Or attchoice.Unitname = "Cruiser" Or attchoice.Unitname = "Submarine" Or attchoice.Unitname = "Battleship" Or attchoice.Unitname = "Transport" Or attchoice.Unitname = "Carrier" Or attchoice.Unitname = "Fighter" Or attchoice.Unitname = "Bomber" Or attchoice.Unitname = "Nuclear" Then
                 Optiononethird.Enabled = False
                 Optiononethird.Value = False
                 Optiontwothirds.Enabled = False
                 Optiontwothirds.Value = False
                 thirds_check.Enabled = False
-                att_result.Caption = Fix(Unit.attack)
+                att_result.Caption = Fix(unit.attack)
             Else
                 thirds_check.Enabled = True
-                If Unit.Unitname = attchoice.Unitname And Optiononethird.Value = True Then
-                    att_result.Caption = Fix(Unit.attack * 1 * 0.33334)
-                ElseIf Unit.Unitname = attchoice.Unitname And Optiontwothirds.Value = True Then
-                    att_result.Caption = Fix(Unit.attack * 1 * 0.66667)
-                ElseIf Unit.Unitname = attchoice.Unitname Then
-                    att_result.Caption = Fix(Unit.attack)
+                If unit.Unitname = attchoice.Unitname And Optiononethird.Value = True Then
+                    att_result.Caption = Fix(unit.attack * 1 * 0.33334)
+                ElseIf unit.Unitname = attchoice.Unitname And Optiontwothirds.Value = True Then
+                    att_result.Caption = Fix(unit.attack * 1 * 0.66667)
+                ElseIf unit.Unitname = attchoice.Unitname Then
+                    att_result.Caption = Fix(unit.attack)
                 End If
             End If
         End If
@@ -1360,9 +1387,9 @@ End Sub
 Private Sub Veteran_check_def_Click()
 
 If Veteran_check_def.Value = 1 Then
-    Set defchoice = New Unit
+    Set defchoice = New unit
     Set terrchoice = New Terrain
-    Set attchoice = New Unit
+    Set attchoice = New unit
     defchoice.Unitname = Getactivecombolistchoice(def_list)
     terrchoice.terrname = Getactivecombolistchoice(terr_list)
     attchoice.Unitname = Getactivecombolistchoice(att_list)
@@ -1373,23 +1400,23 @@ If Veteran_check_def.Value = 1 Then
         End If
     Next
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If def_f_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + veteranbonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
             End If
         Else
-            If Unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus + fortifybonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + veteranbonus + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + veteranbonus + defbonus) * 3)))
+            If unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus + fortifybonus))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + veteranbonus + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + veteranbonus + defbonus) * 3)))
             End If
         End If
     End If
@@ -1406,26 +1433,26 @@ For Each Terrain In terrcollection
     End If
 Next
 
-Set defchoice = New Unit
+Set defchoice = New unit
 defchoice.Unitname = Getactivecombolistchoice(def_list)
 
-For Each Unit In unitcollection
-    If Unit.Unitname = defchoice.Unitname Then
+For Each unit In unitcollection
+    If unit.Unitname = defchoice.Unitname Then
         If (attchoice.Unitname = "Artillery" Or attchoice.Unitname = "Bomber") And Citywalls_check.Value = 1 Then
             If def_f_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (1 + fortifybonus + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + fortifybonus + defbonus))
             Else
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
             End If
         Else
-            If Unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus + fortifybonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
-                def_result.Caption = Fix(Unit.defend * (1 + defbonus))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
-            ElseIf Unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
-                def_result.Caption = Fix(Unit.defend * (((1 + defbonus) * 3)))
+            If unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + defbonus + fortifybonus))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 0 Then
+                def_result.Caption = Fix(unit.defend * (1 + defbonus))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 1 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3) + (fortifybonus)))
+            ElseIf unit.Unitname = defchoice.Unitname And def_f_check.Value = 0 And Citywalls_check.Value = 1 Then
+                def_result.Caption = Fix(unit.defend * (((1 + defbonus) * 3)))
             End If
         End If
     End If

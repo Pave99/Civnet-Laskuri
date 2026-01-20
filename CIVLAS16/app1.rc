@@ -1,0 +1,81 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+101                     BITMAP  DISCARDABLE     "ARCTIC.BMP"
+104                     BITMAP  DISCARDABLE     "GRASSLAN.BMP"
+105                     BITMAP  DISCARDABLE     "HILLS.BMP"
+103                     BITMAP  DISCARDABLE     "FOREST.BMP"
+107                     BITMAP  DISCARDABLE     "MOUNTAIN.BMP"
+112                     BITMAP  DISCARDABLE     "TUNDRA.BMP"
+106                     BITMAP  DISCARDABLE     "JUNGLE.BMP"
+109                     BITMAP  DISCARDABLE     "PLAINS.BMP"
+102                     BITMAP  DISCARDABLE     "DESERT.BMP"
+111                     BITMAP  DISCARDABLE     "SWAMP.BMP"
+108                     BITMAP  DISCARDABLE     "OCEAN.BMP"
+110                     BITMAP  DISCARDABLE     "RIVER.BMP"
+113                     BITMAP  DISCARDABLE     "SEAL.BMP"
+114                     BITMAP  DISCARDABLE     "PRODUCTI.BMP"
+115                     BITMAP  DISCARDABLE     "COAL.BMP"
+116                     BITMAP  DISCARDABLE     "DEER.BMP"
+117                     BITMAP  DISCARDABLE     "GOLD.BMP"
+118                     BITMAP  DISCARDABLE     "MOOSE.BMP"
+119                     BITMAP  DISCARDABLE     "DIAMOND.BMP"
+120                     BITMAP  DISCARDABLE     "HORSE.BMP"
+121                     BITMAP  DISCARDABLE     "OASIS.BMP"
+122                     BITMAP  DISCARDABLE     "OIL.BMP"
+123                     BITMAP  DISCARDABLE     "FISH.BMP"
+124                     BITMAP  DISCARDABLE     "TESTORIV.BMP"
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

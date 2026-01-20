@@ -28,4 +28,3 @@ End Property
 Property Let defend(newdefend As Integer)
 def = newdefend
 End Property
-

@@ -10,9 +10,9 @@ Private name As String
 Private def As Double
 Private def_fe As String
 Private food As Integer
-Private food_irri As Integer
-
-
+Private terr_pic_id As Integer
+Private prod As Integer
+Private trade As Integer
 
 Property Get terrname() As String
 terrname = name
@@ -36,4 +36,28 @@ End Property
 
 Property Let deffront(newdef_fe As String)
 def_fe = newdef_fe
+End Property
+
+Property Get foodvalue() As Integer
+foodvalue = food
+End Property
+
+Property Let foodvalue(newfood As Integer)
+food = newfood
+End Property
+
+Property Let terrpicid(newid As Integer)
+terr_pic_id = newid
+End Property
+
+Property Get terrpicid() As Integer
+terrpicid = terr_pic_id
+End Property
+
+Property Get prodvalue() As Integer
+prodvalue = prod
+End Property
+
+Property Get tradevalue() As Integer
+tradevalue = trade
 End Property
